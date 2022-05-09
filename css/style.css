@@ -6,11 +6,15 @@
     box-sizing: border-box;
 }
 
+/* common */
+* {
+    color: white;
+}
+
 /* header */
 header {
     height: 80px;
     background-color: black;
-    color: white;
     display: flex;
     justify-content: flex-end;
     position: fixed;
@@ -47,9 +51,36 @@ a {
 main {
     margin-top: 80px;
     height: calc(100vh - 180px);
+    background-color: black;
+    overflow-y: auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(100% / 8);
+    margin: 15px 8px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.student {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    left: 0;
+    padding: 5px;
 }
 
 /* footer */
 footer {
     height: 100px;
+    background-color: #222222;
 }
