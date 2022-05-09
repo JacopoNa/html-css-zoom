@@ -34,7 +34,7 @@ ul {
     display: flex;
 }
 
-li {
+header li {
     margin: 2px;
     background-color: #4a4a4a;
     padding: 5px 4px;
@@ -50,7 +50,7 @@ a {
 
 main {
     margin-top: 80px;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 160px);
     background-color: black;
     overflow-y: auto;
 }
@@ -81,6 +81,47 @@ img {
 
 /* footer */
 footer {
-    height: 100px;
+    height: 80px;
     background-color: #222222;
+    display: flex;
 }
+
+.left-content {
+    width: 10%;
+}
+
+footer li {
+    text-align: center;
+    margin: 10px;
+}
+
+.central-content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-content {
+    width: 10%;
+    background-color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li div {
+    margin-top: 5px;
+}
+
+.arrow {
+    line-height: 60px;
+}
+
+.green {
+    color: green;
+}
+
+.right-content span a {
+    color: #de1930;
+}
+
