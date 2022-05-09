@@ -1,0 +1,55 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 2px;
+    background-color: #4a4a4a;
+    padding: 5px 4px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* main */
+
+main {
+    margin-top: 80px;
+    height: calc(100vh - 180px);
+}
+
+/* footer */
+footer {
+    height: 100px;
+}
